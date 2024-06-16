@@ -20,7 +20,7 @@ class Time {
 };
 
             int main(){
-            Time* T = new Time(12,30);
-            T->print();
-            delete T;
+            Time* time = new Time(12,30);
+            time->print();
+            delete time;
             }
