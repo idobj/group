@@ -24,7 +24,9 @@ public:
 
 int main()
 {
-        Time* time = new Time(12, 30);
-        time->print();
-        delete time;
-} 
+        // Time* time = new Time(12, 30);
+        Time time = Time(12, 30);
+        time.print();
+        // time->print();
+        // delete time;
+}
