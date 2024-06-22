@@ -10,7 +10,7 @@ private:
 public:
         /*          Time() {
                          hour=12;
-                            minute=30;
+                         minute=30;
                     } */
         Time(int h, int m) : hour(h), minute(m) {}
         //             hour = h;
